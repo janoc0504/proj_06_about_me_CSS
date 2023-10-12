@@ -7,14 +7,19 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 1920px;
+  /* max-width: 1920px; */
+}
+
+.container {
+  max-width: 1342px;
+  margin: 0 auto;
+  padding: 0 25px;
 }
 
 /* First screen */
 .first-screen {
   background-color: #EEEFF1;
-  padding: 79px 299px;
-  margin-bottom: 112px;
+  /* margin-bottom: 112px; */
 }
 
 ul {
@@ -35,6 +40,7 @@ ul {
   align-items: flex-start;
   gap: 42px;
   letter-spacing: 1.6px;
+  padding-top: 79px;
 }
 
 .main-header {
@@ -42,10 +48,11 @@ ul {
 }
 
 .text-hi {
+  padding-top: 112px;
   font-weight: 400;
   color: #727272;
   margin-bottom: 65px;
-  width: 540px;
+  max-width: 540px;
   line-height: 164.063%;
 }
 
@@ -99,7 +106,7 @@ ul {
 }
 
 .text-aboutme {
-  padding: 0 690px;
+  margin: 0 auto;
   max-width: 540px;
   color: #727272;
   text-align: center;
@@ -162,7 +169,7 @@ ul {
 }
 
 .text-process {
-  padding: 0 690px;
+  margin: 0 auto;
   max-width: 540px;
   color: #727272;
   text-align: center;
@@ -176,21 +183,23 @@ ul {
 }
 
 .video-youtub {
-  width: 1110px;
+  max-width: 1110px;
   height: 600px;
-  margin-left: 405px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
 }
 
 /* FOOTER */
 .contacts {
   background: var(--Accent, #34547A);
   margin-top: 100px;
+  padding-bottom: 50px;
 }
 
 .head-footer {
   color: #FFF;
   padding-top: 50px;
-  margin: 0 0 20px 406px;
   /* h3 */
   font-size: 21px;
   font-style: normal;
@@ -199,10 +208,10 @@ ul {
 }
 
 .text-footer {
-  padding: 0 0 50px 406px;
   color: #FFF;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 164.063%;
+
 }
